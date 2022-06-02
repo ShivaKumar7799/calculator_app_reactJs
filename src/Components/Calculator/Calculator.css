@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(78, 91, 141);
+}
+h1{
+  color: yellow;
+  text-shadow: 5px 5px 5px green;
+}
+p{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 15px 0px;
+  color: white;
+}
+.buttonsMap{
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(5,1fr);
+  margin: 0px 30%;
+  justify-content: center;
+}
+
+input{
+  width: max-content;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.textButtons{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width : 400px) {
+  h2{
+    font-size: 16px;
+  }
+}

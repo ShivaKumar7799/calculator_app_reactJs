@@ -1,0 +1,26 @@
+button{
+  width: 50px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.clearBtn, .undoBtn{
+  width: 110px;
+}
+.clearBtn:hover , .undoBtn:hover{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.equalSym{
+  width: 110px;
+}
+.equalSym:hover{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(141, 132, 29);
+}
